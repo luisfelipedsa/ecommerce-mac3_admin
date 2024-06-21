@@ -18,7 +18,7 @@ const Orders = () => {
       setOrders(data)
       setLoading(false)
     } catch (err) {
-      console.log("[orders_GET", err)
+      console.log("[orders_GET]", err)
     }
   }
 
