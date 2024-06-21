@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 const Orders = () => {
   const [loading, setLoading] = useState(true);
   const [orders, setOrders] = useState([]);
-  // ${process.env.ADMIN_DASHBOARD_URL}
+
   const getOrders = async () => {
     try {
       const res = await fetch(`/api/orders`);
